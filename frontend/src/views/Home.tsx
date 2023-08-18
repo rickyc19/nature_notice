@@ -24,7 +24,7 @@ export const Home: FC = () => {
     <>
       {!message && !error && (
         <Link href='#' onClick={() => queryBackend()}>
-          Click to peepee
+          Click to idk
         </Link>
       )}
       {message && (

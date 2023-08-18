@@ -16,12 +16,17 @@ let rules = {
   'lines-between-class-members': [
     'error',
     'always',
-    { exceptAfterSingleLine: true },
-  ],
+    { exceptAfterSingleLine: true }
+  ]
 };
 
 module.exports = {
-  extends: ['eslint:recommended', 'plugin:@typescript-eslint/recommended', 'plugin:prettier/recommended', 'prettier'],
+  extends: [
+    'eslint:recommended',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:prettier/recommended',
+    'prettier'
+  ],
   parser: '@typescript-eslint/parser',
   // parser: '@babel/eslint-parser',
   rules,
@@ -30,7 +35,7 @@ module.exports = {
     commonjs: true,
     node: true,
     jest: true,
-    es6: true,
+    es6: true
   },
   plugins: ['@typescript-eslint', 'react', 'react-hooks', 'jsx-a11y'],
   settings: {
@@ -38,15 +43,15 @@ module.exports = {
     jsx: true,
     'import/resolver': {
       node: {
-        paths: ['src'],
-      },
+        paths: ['src']
+      }
     },
     'import/parsers': {
-      '@typescript-eslint/parser': ['.ts', '.tsx'],
+      '@typescript-eslint/parser': ['.ts', '.tsx']
     },
     react: {
       pragma: 'React',
-      version: '18.2.0',
-    },
-  },
+      version: '18.2.0'
+    }
+  }
 };

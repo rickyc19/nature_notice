@@ -7,12 +7,12 @@ type loginFormType = {
 
 const authProvider = {
   login: ({ username, password }: loginFormType) => {
-    let formData = new FormData();
+    const formData = new FormData();
     formData.append('username', username);
     formData.append('password', password);
     const request = new Request('/api/token', {
       method: 'POST',
-      body: formData,
+      body: formData
     });
     return fetch(request)
       .then((response) => {
@@ -49,7 +49,7 @@ const authProvider = {
     const role = localStorage.getItem('permissions');
     return role ? Promise.resolve(role) : Promise.reject();
     // localStorage.getItem('token') ? Promise.resolve() : Promise.reject(),
-  },
+  }
 };
 
 export default authProvider;

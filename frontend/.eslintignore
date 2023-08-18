@@ -1,0 +1,17 @@
+**/*.git
+**/*.svn
+**/*.hg
+**/*.lock
+**/*.log
+**/*.sh
+**/*.json
+**/*.md
+**/*.cs
+**/*.svg
+**/*.css
+**/*.html
+**/*.txt
+**/*.png
+**/*.ico
+**/node_modules
+Dockerfile
