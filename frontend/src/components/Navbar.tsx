@@ -1,17 +1,18 @@
-import React from 'react'
+import React from 'react';
 
-function Logo () {
+function Logo() {
   return (
-    <div>
-      <img src='../images/icons8-tree-96.png' />
+    <div className={'logo-with-text'}>
+      <img src={"%PUBLIC_URL%/tree-icon.svg"} alt={'logo'} />
       <h3>Nature Notice</h3>
     </div>
-  )
+  );
 }
-export default function Navbar () {
+
+export default function Navbar() {
   return (
     <nav>
       <Logo />
     </nav>
-  )
+  );
 }

@@ -6,11 +6,11 @@ import { AppRoutes } from './AppRoutes';
 import Navbar from './components/Navbar';
 
 ReactDOM.render(
-  <div>
+    <div>
     <Navbar />
     <Router>
-      <AppRoutes />
+        <AppRoutes />
     </Router>
-  </div>,
-  document.getElementById('root')
+    </div>,
+    document.getElementById('root')
 );

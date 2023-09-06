@@ -32,7 +32,6 @@ export const Home: FC = () => {
           Error: <code>{error}</code>
         </p>
       )}
-      <Link href='/protected'>Protected Route</Link>
       {isAuthenticated() ? (
         <Link href='/logout'>Logout</Link>
       ) : (

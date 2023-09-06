@@ -1,13 +1,9 @@
 #!/usr/bin/env bash
 
 case $1 in
-  start) npm start | cat
-    ;;
-  build) npm build
-    ;;
-  test) npm test $@
-    ;;
+  start) npm start | cat ;;
+  build) npm build ;;
+  test) npm test $@ ;;
   *)
-    npm "$@"
-    ;;
+    npm "$@" ;;
 esac
