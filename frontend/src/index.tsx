@@ -1,16 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { BrowserRouter as Router } from 'react-router-dom';
-import './index.css';
-import { AppRoutes } from './AppRoutes';
-import Navbar from './components/Navbar';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import { BrowserRouter as Router } from 'react-router-dom'
+import './index.css'
+import { AppRoutes } from './AppRoutes'
+import Navbar from './components/Navbar'
 
 ReactDOM.render(
-    <div>
+  <div>
     <Navbar />
     <Router>
-        <AppRoutes />
+      <AppRoutes />
     </Router>
-    </div>,
-    document.getElementById('root')
-);
+  </div>,
+  document.getElementById('root')
+)
