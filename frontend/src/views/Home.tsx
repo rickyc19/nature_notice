@@ -22,11 +22,6 @@ export const Home: FC = () => {
 
   return (
     <>
-      {!message && !error && (
-        <Link href='#' onClick={() => queryBackend()}>
-          Click to idk
-        </Link>
-      )}
       {message && (
         <p>
           <code>{message}</code>
