@@ -14,4 +14,39 @@ code {
 .logo-with-text {
     display: flex;
     flex-direction: row;
+    padding-left: 20px;
+}
+
+.logo-with-text img {
+    width: 25px;
+    padding-right: 3px;
+}
+
+.menu-items {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding-right: 10px;
+    margin: 0;
+}
+
+.menu-items li {
+    padding: 0 10px;
+    float: left;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-box {
+    border-radius: .5em;
+}
+
+
+.search-icon {
+
 }
