@@ -1,3 +1,7 @@
+* {
+    font-family: Inter, serif;
+}
+
 body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -13,7 +17,6 @@ code {
 
 .name-nature {
     margin-bottom: -4px;
-    font-family: Inter;
     font-size: 20px;
     font-weight: bold;
     color: #56A950;
@@ -21,7 +24,6 @@ code {
 
 .name-notice {
     margin-top: -4px;
-    font-family: Inter;
     font-size: 20px;
     color: #56A950;
 }
@@ -38,16 +40,34 @@ code {
     padding-right: 3px;
 }
 
+.btn-create-event {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background-color: white;
+    padding: 10px 0;
+    border: none;
+    font-size: 15px;
+}
+
+.btn-my-events {
+    background-color: #56A950;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
 .menu-items {
     list-style: none;
     display: flex;
     flex-direction: row;
-    padding-right: 10px;
     margin: 0;
+    gap: 20px;
 }
 
 .menu-items li {
-    padding: 0 10px;
     float: left;
 }
 
@@ -59,11 +79,24 @@ code {
     padding: 15px 120px 15px 120px;
 }
 
-.search-box {
-    border-radius: .5em;
+.location-dropdown {
+    border: none;
+    background-color: #FEC45A;
+    border-radius: 52px;
+    padding: 0 16px;
+    font-size: 15px;
+    color: #20525C
 }
 
+.search-text-box {
+    border: none;
+}
 
-.search-icon {
-
+.search-bar {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    box-shadow: 1px 1px 1px #D7D7D7;
+    border-radius: 60px;
+    padding: 6px;
 }
