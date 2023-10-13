@@ -11,14 +11,30 @@ code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
+.name-nature {
+    margin-bottom: -4px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: bold;
+    color: #56A950;
+}
+
+.name-notice {
+    margin-top: -4px;
+    font-family: Inter;
+    font-size: 20px;
+    color: #56A950;
+}
+
 .logo-with-text {
     display: flex;
     flex-direction: row;
-    padding-left: 20px;
+    align-items: center;
 }
 
 .logo-with-text img {
-    width: 25px;
+    width: 50px;
+    height: 50px;
     padding-right: 3px;
 }
 
@@ -40,6 +56,7 @@ code {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding: 15px 120px 15px 120px;
 }
 
 .search-box {

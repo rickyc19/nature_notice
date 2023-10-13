@@ -1,14 +1,23 @@
 import React from 'react'
-import icon from '../images/tree-icon.svg'
+import icon from '../images/nature-notice-logo.svg'
 import Textfield from '@mui/material/TextField'
 import IconButton from '@mui/material/IconButton'
 import SearchIcon from '@mui/icons-material/Search'
+
+function LogoName () {
+  return (
+    <div className='logo-name'>
+      <div className='name-nature'>Nature</div>
+      <div className='name-notice'>notice</div>
+    </div>
+  )
+}
 
 function Logo () {
   return (
     <div className='logo-with-text'>
       <img src={icon} alt='logo' />
-      <h3>Nature Notice</h3>
+      <LogoName />
     </div>
   )
 }
