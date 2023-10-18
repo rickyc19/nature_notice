@@ -182,3 +182,7 @@ code {
     flex-direction: column;
     gap: 15px;
 }
+
+.home-page-body {
+    margin: 30px 120px;
+}

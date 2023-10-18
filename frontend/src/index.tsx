@@ -7,7 +7,9 @@ import EventCard from './components/EventCard/EventCard'
 ReactDOM.render(
   <div>
     <Navbar />
-    <EventCard />
+    <div className='home-page-body'>
+      <EventCard />
+    </div>
   </div>,
   document.getElementById('root')
 )
