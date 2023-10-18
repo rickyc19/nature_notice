@@ -1,7 +1,7 @@
 import IconButton from '@mui/material/IconButton'
 import React from 'react'
-import SearchIcon from '../images/search-icon.svg'
-import MapPin from '../images/map-pin.svg'
+import SearchIcon from '../../images/search-icon.svg'
+import MapPin from '../../images/map-pin.svg'
 
 function LocationDropdown () {
   return (
