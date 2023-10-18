@@ -1,5 +1,5 @@
 import React from 'react'
-import icon from '../images/nature-notice-logo.svg'
+import icon from '../../images/nature-notice-logo.svg'
 
 function LogoText () {
   return (

@@ -121,3 +121,64 @@ code {
     padding: 6px;
     border: #D7D7D7;
 }
+
+.event-card-image {
+    width: 284px;
+    height: 253px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.event-card-image img {
+    min-height:100%;
+    min-width: 100%;
+    object-fit: cover;
+}
+
+.event-card-title {
+    font-size: 15px;
+    font-weight: 600;
+    color: #213502;
+}
+
+.event-card-location {
+    font-size: 13px;
+    color: #7A7A7A;
+}
+
+.event-card-date-time {
+    font-size: 13px;
+    color: #7A7A7A;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.event-card-price-entry {
+    font-size: 15px;
+    color: #213502;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.event-card-price {
+    font-weight: 600;
+}
+
+.event-card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.event-card {
+    width: 285px;
+    height: 384px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}

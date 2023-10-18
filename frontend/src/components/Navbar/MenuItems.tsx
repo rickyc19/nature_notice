@@ -1,5 +1,5 @@
 import React from 'react'
-import icon from '../images/create-plus-icon.svg'
+import icon from '../../images/create-plus-icon.svg'
 
 export default function MenuItems () {
   return (
