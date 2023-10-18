@@ -80,23 +80,44 @@ code {
 }
 
 .location-dropdown {
+    display: flex;
+    flex-direction: row;
     border: none;
     background-color: #FEC45A;
     border-radius: 52px;
-    padding: 0 16px;
+    padding: 6px 16px;
+}
+
+.location-selector {
+    border: none;
+    background-color: transparent;
     font-size: 15px;
-    color: #20525C
+    color: #20525C;
+    padding-right: 10px;
+}
+
+.location-selector:focus {
+    outline: none;
 }
 
 .search-text-box {
     border: none;
+    width: inherit;
+    flex-grow: 1;
+}
+
+.search-text-box:focus, input:focus {
+    outline: none;
 }
 
 .search-bar {
     display: flex;
+    max-width: 460px;
+    flex-grow: 1;
     flex-direction: row;
     gap: 10px;
-    box-shadow: 1px 1px 1px #D7D7D7;
+    box-shadow: 0 1px 3px #D7D7D7;
     border-radius: 60px;
     padding: 6px;
+    border: #D7D7D7;
 }
