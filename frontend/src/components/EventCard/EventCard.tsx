@@ -12,7 +12,7 @@ function EventCardImage () {
 function EventLocationDate () {
   return (
     <div className='event-card-location-date'>
-      <div className='event-card-location'>6814 Onion Creek Drive</div>
+      <div className='event-card-location'>12345 Onion Creek Drive</div>
       <div className='event-card-date-time'>
         <div>Jan 1</div>
         <div> | </div>
