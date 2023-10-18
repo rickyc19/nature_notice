@@ -22,11 +22,6 @@ export const Home: FC = () => {
 
   return (
     <>
-      {!message && !error && (
-        <Link href='#' onClick={() => queryBackend()}>
-          Click to idk
-        </Link>
-      )}
       {message && (
         <p>
           <code>{message}</code>
@@ -37,8 +32,6 @@ export const Home: FC = () => {
           Error: <code>{error}</code>
         </p>
       )}
-      <Link href='/admin'>Admin Dashboard</Link>
-      <Link href='/protected'>Protected Route</Link>
       {isAuthenticated() ? (
         <Link href='/logout'>Logout</Link>
       ) : (

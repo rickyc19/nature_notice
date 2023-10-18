@@ -1,13 +1,123 @@
+* {
+    font-family: Inter, serif;
+}
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.name-nature {
+    margin-bottom: -4px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #56A950;
+}
+
+.name-notice {
+    margin-top: -4px;
+    font-size: 20px;
+    color: #56A950;
+}
+
+.logo-with-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo-with-text img {
+    width: 50px;
+    height: 50px;
+    padding-right: 3px;
+}
+
+.btn-create-event {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background-color: white;
+    padding: 10px 0;
+    border: none;
+    font-size: 15px;
+}
+
+.btn-my-events {
+    background-color: #56A950;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.menu-items {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    gap: 20px;
+}
+
+.menu-items li {
+    float: left;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 120px 15px 120px;
+}
+
+.location-dropdown {
+    display: flex;
+    flex-direction: row;
+    border: none;
+    background-color: #FEC45A;
+    border-radius: 52px;
+    padding: 6px 16px;
+}
+
+.location-selector {
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
+    color: #20525C;
+    padding-right: 10px;
+}
+
+.location-selector:focus {
+    outline: none;
+}
+
+.search-text-box {
+    border: none;
+    width: inherit;
+    flex-grow: 1;
+}
+
+.search-text-box:focus, input:focus {
+    outline: none;
+}
+
+.search-bar {
+    display: flex;
+    max-width: 460px;
+    flex-grow: 1;
+    flex-direction: row;
+    gap: 10px;
+    box-shadow: 0 1px 3px #D7D7D7;
+    border-radius: 60px;
+    padding: 6px;
+    border: #D7D7D7;
 }

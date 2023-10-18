@@ -3,7 +3,7 @@
 from app.db.session import get_db
 from app.db.crud import create_user
 from app.db.schemas import UserCreate
-from app.db.session import SessionLocal
+from backend.db.session import SessionLocal
 
 
 def init() -> None:
@@ -12,8 +12,8 @@ def init() -> None:
     create_user(
         db,
         UserCreate(
-            email="rickyc19live@gmail.com",
-            password="1625497",
+            email="email@email.com",
+            password="idk",
             is_active=True,
             is_superuser=True,
         ),
@@ -21,6 +21,6 @@ def init() -> None:
 
 
 if __name__ == "__main__":
-    print("Creating superuser rickyc19live@gmail.com")
+    print("Creating superuser email@email.com")
     init()
     print("Superuser created")
