@@ -77,7 +77,7 @@ code {
     justify-content: space-between;
     align-items: center;
     padding: 15px 120px 15px 120px;
-    box-shadow: #7A7A7A 1px 1px 1px;
+    border-bottom: 1px solid rgba(136, 136, 136, .15);
 }
 
 .location-dropdown {
