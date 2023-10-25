@@ -119,31 +119,46 @@ body {
 .vibe-icon {
     width: 30px;
     height: 30px;
-    color: #7A7A7A;
-}
-
-.vibe-icon svg path {
-    fill: currentColor;
+    filter: invert(48%) sepia(0%) saturate(1492%) hue-rotate(183deg) brightness(97%) contrast(70%);
 }
 
 .vibe-text {
     font-size: 15px;
 }
 
-.vibe-selection {
+.vibe-item {
     display: flex;
     flex-direction: column;
     gap: 8px;
     padding: 5px 0;
     color: #7A7A7A;
     align-items: center;
+    margin-right: 30px;
+    white-space: nowrap;
 }
 
-.carousel-container {
+.horizontal-scroll-container {
     display: flex;
-    justify-content: left;
+    justify-content: space-between;
     flex-direction: row;
-    gap: 50px;
+    flex: 1;
+    overflow-x: auto;
+}
+
+::-webkit-scrollbar {
+    height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: rgba(32, 82, 92, .9);
 }
 
 .filter-icon {

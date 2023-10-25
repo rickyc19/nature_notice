@@ -12,7 +12,7 @@ import IconFilterBars from '../../images/bars-filter.svg'
 
 function VibeOutdoorFun () {
   return (
-    <form className='vibe-selection'>
+    <form className='vibe-item'>
       <img src={IconOutdoorFun} alt='vibe-icon' className='vibe-icon' />
       <div className='vibe-name'>Outdoor Fun</div>
     </form>
@@ -21,7 +21,7 @@ function VibeOutdoorFun () {
 
 function VibeWildlife () {
   return (
-    <form className='vibe-selection'>
+    <form className='vibe-item'>
       <img src={IconWildlife} alt='vibe-icon' className='vibe-icon' />
       <div className='vibe-name'>Wildlife</div>
     </form>
@@ -30,7 +30,7 @@ function VibeWildlife () {
 
 function VibeGardening () {
   return (
-    <form className='vibe-selection'>
+    <form className='vibe-item'>
       <img src={IconGardening} alt='vibe-icon' className='vibe-icon' />
       <div className='vibe-name'>Gardening</div>
     </form>
@@ -39,7 +39,7 @@ function VibeGardening () {
 
 function VibeWater () {
   return (
-    <form className='vibe-selection'>
+    <form className='vibe-item'>
       <img src={IconWater} alt='vibe-icon' className='vibe-icon' />
       <div className='vibe-name'>Water</div>
     </form>
@@ -48,7 +48,7 @@ function VibeWater () {
 
 function VibeWellness () {
   return (
-    <form className='vibe-selection'>
+    <form className='vibe-item'>
       <img src={IconWellness} alt='vibe-icon' className='vibe-icon' />
       <div className='vibe-name'>Wellness</div>
     </form>
@@ -57,7 +57,7 @@ function VibeWellness () {
 
 function VibeScience () {
   return (
-    <form className='vibe-selection'>
+    <form className='vibe-item'>
       <img src={IconScience} alt='vibe-icon' className='vibe-icon' />
       <div className='vibe-name'>Science</div>
     </form>
@@ -66,7 +66,7 @@ function VibeScience () {
 
 function VibeArtsCrafts () {
   return (
-    <form className='vibe-selection'>
+    <form className='vibe-item'>
       <img src={IconArtsCrafts} alt='vibe-icon' className='vibe-icon' />
       <div className='vibe-name'>Arts & Crafts</div>
     </form>
@@ -75,7 +75,7 @@ function VibeArtsCrafts () {
 
 function VibeJustice () {
   return (
-    <form className='vibe-selection'>
+    <form className='vibe-item'>
       <img src={IconJustice} alt='vibe-icon' className='vibe-icon' />
       <div className='vibe-name'>Justice</div>
     </form>
@@ -84,7 +84,7 @@ function VibeJustice () {
 
 function VibeDarkSkies () {
   return (
-    <form className='vibe-selection'>
+    <form className='vibe-item'>
       <img src={IconDarkSkies} alt='vibe-icon' className='vibe-icon' />
       <div className='vibe-name'>Dark Skies</div>
     </form>
@@ -93,7 +93,7 @@ function VibeDarkSkies () {
 
 function VibeBar () {
   return (
-    <form className='carousel-container'>
+    <form className='horizontal-scroll-container'>
       <VibeOutdoorFun />
       <VibeWildlife />
       <VibeGardening />
