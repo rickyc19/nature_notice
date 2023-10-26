@@ -84,7 +84,7 @@ function VibeJustice () {
 
 function VibeDarkSkies () {
   return (
-    <form className='vibe-item'>
+    <form className='vibe-item vibe-item-last'>
       <img src={IconDarkSkies} alt='vibe-icon' className='vibe-icon' />
       <div className='vibe-name'>Dark Skies</div>
     </form>

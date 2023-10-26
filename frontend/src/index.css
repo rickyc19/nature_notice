@@ -137,6 +137,10 @@ body {
     white-space: nowrap;
 }
 
+.vibe-item-last {
+    margin-right: 0;
+}
+
 .horizontal-scroll-container {
     display: flex;
     justify-content: space-between;
