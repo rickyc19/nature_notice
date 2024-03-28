@@ -2,7 +2,7 @@ import { Route, Routes } from 'react-router-dom';
 import { Box, styled } from '@mui/system';
 import React, { ReactNode, useEffect } from 'react';
 import { useNavigate } from 'react-router';
-import { Home, Login, SignUp } from './pages';
+import { Login, SignUp } from './pages';
 import { logout } from './utils';
 import AppBar from '@mui/material/AppBar';
 
@@ -68,14 +68,6 @@ export const AppRoutes = () => {
           element={
             <App>
               <LogoutComponent />
-            </App>
-          }
-        />
-        <Route
-          path='/'
-          element={
-            <App>
-              <Home />
             </App>
           }
         />

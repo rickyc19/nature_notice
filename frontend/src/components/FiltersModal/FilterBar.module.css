@@ -1,0 +1,278 @@
+.planetEarth11 {
+  width: 26px;
+  height: 26px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.exploration {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 26px;
+  display: inline-block;
+  min-width: 78px;
+}
+.planetEarth11Parent {
+  align-self: stretch;
+  background-color: var(--white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-8xs) 0;
+  gap: var(--gap-5xs);
+}
+.fi9684425Icon {
+  width: 26px;
+  height: 26px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.seminars {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 26px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 66px;
+}
+.fi9684425Parent {
+  align-self: stretch;
+  background-color: var(--white);
+  border-bottom: 1px solid var(--color-gray-100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-8xs) 0;
+  gap: var(--gap-5xs);
+  color: var(--secondary-green);
+}
+.fi1973742Icon {
+  width: 26px;
+  height: 26px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.gardening {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 26px;
+  display: inline-block;
+  min-width: 72px;
+}
+.fi1973742Parent {
+  align-self: stretch;
+  background-color: var(--white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-8xs) 0;
+  gap: var(--gap-5xs);
+}
+.fi5224425Icon {
+  width: 26px;
+  height: 26px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.wildlife {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 26px;
+  display: inline-block;
+  min-width: 51px;
+}
+.fi5224425Parent {
+  align-self: stretch;
+  background-color: var(--white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-8xs) 0;
+  gap: var(--gap-5xs);
+}
+.fi4994534Icon {
+  width: 26px;
+  height: 26px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.advocacy {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 26px;
+  display: inline-block;
+  min-width: 69px;
+}
+.fi4994534Parent {
+  align-self: stretch;
+  background-color: var(--white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-8xs) 0;
+  gap: var(--gap-5xs);
+}
+.fi2335526Icon {
+  width: 26px;
+  height: 26px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.activities {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 26px;
+  display: inline-block;
+  min-width: 64px;
+}
+.fi2335526Parent {
+  align-self: stretch;
+  background-color: var(--white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-8xs) 0;
+  gap: var(--gap-5xs);
+}
+.fi2550089Icon {
+  width: 26px;
+  height: 26px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.agriculture {
+  position: relative;
+  font-size: var(--font-size-mini);
+  letter-spacing: -0.01em;
+  line-height: 26px;
+  font-family: var(--font-inter);
+  color: var(--color-gray-100);
+  text-align: left;
+  display: inline-block;
+  min-width: 76px;
+}
+.fi2550089Parent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-8xs) 0;
+  background-color: var(--white);
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.fi2550089Parent:hover {
+  background-color: var(--color-gainsboro-100);
+}
+.idea21 {
+  width: 26px;
+  height: 26px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.projects {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 26px;
+  display: inline-block;
+  min-width: 57px;
+}
+.idea21Parent {
+  align-self: stretch;
+  background-color: var(--white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-8xs) 0;
+  gap: var(--gap-5xs);
+}
+.fi10302969Icon {
+  width: 26px;
+  height: 26px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.festivals {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 26px;
+  display: inline-block;
+  min-width: 61px;
+}
+.fi10302969Parent {
+  align-self: stretch;
+  background-color: var(--white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-8xs) 0;
+  gap: var(--gap-5xs);
+}
+.vibefilters {
+  align-self: stretch;
+  width: 1058px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 var(--padding-45xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.filtersbutton {
+  height: 56px;
+  width: 112px;
+  cursor: pointer;
+}
+.filterbar {
+  align-self: stretch;
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-6xl) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-11xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-gray-100);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1050px) {
+  .vibefilters {
+    display: none;
+    padding-right: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+}
